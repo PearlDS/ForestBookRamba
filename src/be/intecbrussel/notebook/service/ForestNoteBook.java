@@ -59,9 +59,17 @@ public class ForestNoteBook   {
 
 
     public void addAnimal(Animal animal) {
+        
+        if(!animals.contains(animal)){
         System.out.println("Adding animals:" + animal);
         animals.add(animal);
         animalCount++;
+            
+            if( animal instanceOf Carnivore){
+             carnivores.add.(animal);   
+            }
+            
+        }
 
     }
 
